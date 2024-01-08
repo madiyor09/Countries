@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background: #FAFAFA;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header{
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-right: 60px;
+    padding-bottom: 23px;
+    padding-left: 60px;
+    margin-bottom: 48px;
+}
+
+.hero-input{
+    width: 480px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-left: 40px;
+    margin-right: 550px;
+    padding-left: 74px;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-position: 32px 20px;
+}
+
+.hero-select{
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    padding-left: 24px;
+}
+
+.header-title{
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-text{
+    width: 108px;
+    text-align: right;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-image: url("../images/Group\ 3.svg");
+    background-repeat: no-repeat;
+    background-position: left center -2px;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.hero-box{
+    width: 264px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    margin-bottom: 45px;
+}
+
+.hero-title{
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px; /* 144.444% */
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    
+}
+
+.hero-text{
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+    margin-bottom: 5px;
+    margin-left: 24px;
+}
